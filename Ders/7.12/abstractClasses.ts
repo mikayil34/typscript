@@ -6,7 +6,7 @@ abstract class KrediBase {
         console.log("Kaydedildi.")
     }
     abstract hesapla(): void
-
+deger:number=12
 }
 
 class TüketiciKredi extends KrediBase {
@@ -32,10 +32,11 @@ class MorgicKredi extends KrediBase {
 let tüketicikredi= new TüketiciKredi();
 tüketicikredi.hesapla();
 tüketicikredi.kaydet();
+tüketicikredi.deger;
 let morgickredi= new MorgicKredi();
 morgickredi.hesapla();
 morgickredi.kaydet();
-
+morgickredi.deger;
 let kredi:KrediBase
 kredi = new TüketiciKredi();
-kredi = new MorgicKredi();
+kredi = new MorgicKredi(); 

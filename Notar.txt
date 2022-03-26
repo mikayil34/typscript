@@ -1,0 +1,5 @@
+
+1- npm install -g typescript paket yükümü ilemi
+2-metin belgesi aç uzantosono intro.ts olarak değiştir.
+3-tsc intro.ts
+4-js çalıştırak için  nodemon intro.js
